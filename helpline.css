@@ -1,0 +1,34 @@
+.helpline{
+  background-color: blue;
+  display:flex;
+  justify-content: space-between;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.left-portion{
+  display: inline-flex;
+  text-decoration-color: white;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.right-portion{
+  display: inline-block;
+  text-decoration-color: white;
+  align-items: center;
+  
+}
+.fa{
+  color: white;
+
+}
+.text{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.texticon{
+  color: white;
+  display:inline-flex;
+  align-items: center;
+}

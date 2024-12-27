@@ -1,0 +1,58 @@
+.head{
+  background-color: blue;
+  padding-top:10px;
+  padding-bottom:10px;
+  display:flex;
+  justify-content: space-between;
+  font-family:Roboto;
+  align-items: center;
+
+}
+.buttons{
+  background-color: blue;
+  border:none;
+  color:white ;
+  font-family:Roboto;
+}
+.alltimebuttons{
+  
+    background-color: blue;
+    border:none;
+    color:white ;
+    font-family:Roboto;
+  
+}
+.types{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.apsdma{
+  display:inline-block;
+  display:none ;
+}
+.menu{
+  display: none;
+}
+
+@media (max-width:800px)
+{
+.large{
+  display:none;
+}
+.apsdma{
+  display: contents;
+}
+.menu{
+  display:inline-block;
+}
+}
+@media(max-width:1346px)
+{ .buttons {
+ font-size:0.84vw ;
+}
+.alltimebuttons{
+  font-size:0.84vw ;
+}
+}
