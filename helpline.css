@@ -4,6 +4,7 @@
   justify-content: space-between;
   padding-top:10px;
   padding-bottom:10px;
+  align-items: center;
 }
 .left-portion{
   display: inline-flex;
@@ -13,14 +14,14 @@
 
 }
 .right-portion{
-  display: inline-block;
+  display: inline-flex;
   text-decoration-color: white;
   align-items: center;
   
 }
 .fa{
   color: white;
-
+  padding-right:7px;
 }
 .text{
   margin-top: 0;
@@ -30,5 +31,6 @@
 .texticon{
   color: white;
   display:inline-flex;
-  align-items: center;
+  align-items:center;
+  margin-left:5px ;
 }
